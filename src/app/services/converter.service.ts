@@ -22,7 +22,7 @@ export class ConverterService {
     }
 
     let amountInUAH = amount * rateXToUAH;
-    let amountInCurrencyY = amountInUAH / rateYToUAH; 
+    let amountInCurrencyY = amountInUAH / rateYToUAH;
 
     return amountInCurrencyY;
   }
